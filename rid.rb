@@ -36,7 +36,6 @@ class RID
       raise "Folder `#{folder}` doesn't exist."
     end
 
-
     progress_bar = ProgressBar.create(  :format         => '%a %bᗧ%i %p%% %t',
                                         :progress_mark  => ' ',
                                         :remainder_mark => '･',
