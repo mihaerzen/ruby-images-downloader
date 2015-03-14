@@ -10,9 +10,8 @@ class TestRID < Test::Unit::TestCase
   TEST_URL = "http://mihaerzen.github.io/ruby-images-downloader/"
 
   EXPECTED_URLS_ARRAY = [
-    "http://placehold.it/200",
-    "http://placehold.it/300",
-    "https://placehold.it/400"
+    "http://placehold.it/50",
+    "https://placehold.it/100"
   ]
 
   def setup
